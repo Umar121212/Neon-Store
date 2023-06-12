@@ -48,7 +48,7 @@ nav {
     font-family: 'Raleway';
     font-size: 18px;
     line-height: 125%;
-    margin-top: 42px;
+    margin: 42px 0 70px 142px;
  
 }
 
@@ -104,6 +104,7 @@ nav {
     font-weight: 400;
     font-size: 22px;
     line-height: 125%;
+    margin: 42px 0 70px 142px;
     
 
 }
@@ -153,42 +154,31 @@ nav {
 }
 
 .photoCont {
+    display: flex;
+    justify-content: space-around;
     margin-bottom: 75px;
 
 }
 
 .photo {
+    position: relative;
     width: 395px;
     height: 337px;
+
 }
 
-.photo .img{
-    position: relative;
-    margin: 0 0 75px;
+.photo .advanImg{
+    position: absolute;
     width: 327px;
     height: 256px;
+    left: 50%;
+    bottom: 15px;
+    transform: translate(-50%, 0);
  
 }
 
-.photo .img2 {
-    width: 247px;
-    height: 242px;
 
-}
-
-.photo .img3 {
-    width: 285px;
-    height: 314px;
-
-}
-
-.frame {
-    position: absolute;
-    margin: 9px 75px 5px;
-
-}
-
-.photoCont .text {
+.text {
     margin-bottom: 200px;
 }
 /* Third block end */
@@ -201,8 +191,9 @@ nav {
 
 .column1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
 
 }
 
@@ -219,7 +210,6 @@ nav {
     font-size: 60px;
     line-height: 89px;
     color: #FFFFFF;
-    margin: 0 0 100px;
 
 }
 
@@ -233,7 +223,6 @@ nav {
     font-size: 18px;
     line-height: 21px;
     color: rgba(255, 255, 255, 0.6);
-    margin-bottom: 0 0 119px;
 
 
 }
@@ -304,6 +293,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
 
 }
 
@@ -320,7 +310,6 @@ nav {
     font-size: 60px;
     line-height: 89px;
     color: #FFFFFF;
-    margin: 0 0 100px;
 
 }
 
@@ -334,9 +323,7 @@ nav {
     font-size: 18px;
     line-height: 21px;
     color: rgba(255, 255, 255, 0.6);
-    margin: 0 0 119px;
-
-
+  
 }
 
 .garniture {
@@ -409,6 +396,7 @@ nav {
     font-size: 60px;
     line-height: 89px;
     color: #FFFFFF;
+    margin-bottom: 127px;
 
 }
 
@@ -418,3 +406,4 @@ nav {
     align-items: center;
     margin-bottom: 200px;
 }
+/* Fifth block end */
