@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Oswald";
+    src: url(./fonts/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Raleway";
+    src: url(./fonts/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url(./fonts/Jost-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    background: rgba(10, 2, 22, 0.94);
+    padding: 0 135px;
+    
+}
+
+header {
+    display: flex;
+}
+
+.logo {
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 76px;
+    margin-top: 24px;
+    
+}
+
+nav {
+    flex-grow: 1;
+}
+
+.infoMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 23px;
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 125%;
+    margin-top: 42px;
+ 
+}
+
+.infoMenu a {
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.inputBox {
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 2px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    Width: 326px;
+    Height: 39px;
+
+}
+
+.inputBox img{
+    width: 15px;
+    height: 15px;
+}
+
+.inputBox input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: #FFFFFF;
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 18px;
+    line-height: 21px;
+    
+}
+
+.infoMenu .login {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F50395;
+
+}
+
+.categories{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 61px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 125%;
+    
+
+}
+
+.categories a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.choices {
+    font-family: 'Raleway';
+
+}
+
+/* Header end */
+/* Main Start */
+/* Main end */
+
+/* Third block start */
+.advan {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.textAdvan {
+    width: 519px;
+    height: 89px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 89px;
+    color: #FFFFFF;
+    margin: 180px 1258px 101px 0;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 125%;
+    text-align: center;
+    color: #FEFEFE;
+}
+
+.photoCont {
+    margin-bottom: 75px;
+
+}
+
+.photo {
+    width: 395px;
+    height: 337px;
+}
+
+.photo .img{
+    position: relative;
+    margin: 0 0 75px;
+    width: 327px;
+    height: 256px;
+ 
+}
+
+.photo .img2 {
+    width: 247px;
+    height: 242px;
+
+}
+
+.photo .img3 {
+    width: 285px;
+    height: 314px;
+
+}
+
+.frame {
+    position: absolute;
+    margin: 9px 75px 5px;
+
+}
+
+.photoCont .text {
+    margin-bottom: 200px;
+}
+/* Third block end */
+/* Fourth block start */
+
+.new {
+    display: flex;
+    flex-direction: column;
+}
+
+.column1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.column2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.newh2 {
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 89px;
+    color: #FFFFFF;
+    margin: 0 0 100px;
+
+}
+
+.showMore {
+    width: 280px;
+    height: 50px;
+    background-image: url(./img/buttons/showButton.svg);
+    border: 0;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 0 0 119px;
+
+
+}
+
+.mouses {
+    width: 390px;
+    height: 626px;
+    background-image: url(./img/borders/border1.svg);
+
+}
+
+.mouses > img {
+    width: 324px;
+    height: 337px;
+    margin: 33px 33px 0;
+}
+
+.articul {
+    width: 145px;
+    height: 23px;
+    font-family: 'Jost';
+    font-size: 18px;
+    line-height: 125%;
+    color: rgba(254, 254, 254, 0.5);
+    margin: 28px 212px 2px 33px;
+
+}
+
+.mouseName {
+    width: 256px;
+    height: 41px;
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 41px;
+    color: #F50395;
+    margin: 0 120px 31px 33px;
+
+}
+
+.priceMouse {
+    width: 309px;
+    height: 40px;
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: right;
+    color: #FFFFFF;
+    margin: 0 33px 10px 48px;
+
+}
+
+.toFav {
+    width: 324px;
+    height: 48px;
+    margin: 0 33px 33px;
+    background-image: url(./img/buttons/toFav.svg);
+}
+
+/* Fourth block end */
+/* Fifth block start */
+.special {
+    display: flex;
+    flex-direction: column;
+}
+.conteiner1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.conteiner2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.specialh2 {
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 89px;
+    color: #FFFFFF;
+    margin: 0 0 100px;
+
+}
+
+.showMore {
+    width: 280px;
+    height: 50px;
+    background-image: url(./img/buttons/showButton.svg);
+    border: 0;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 0 119px;
+
+
+}
+
+.garniture {
+    width: 390px;
+    height: 626px;
+    background-image: url(./img/borders/border1.svg);
+
+}
+
+.garniture > img {
+    width: 324px;
+    height: 337px;
+    margin: 33px 33px 0;
+}
+
+.spArticul {
+    width: 145px;
+    height: 23px;
+    font-family: 'Jost';
+    font-size: 18px;
+    line-height: 125%;
+    color: rgba(254, 254, 254, 0.5);
+    margin: 28px 212px 2px 33px;
+
+}
+
+.garnitureName {
+    width: 256px;
+    height: 41px;
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 41px;
+    color: #F50395;
+    margin: 0 120px 31px 33px;
+
+}
+
+.pricegarn {
+    width: 309px;
+    height: 40px;
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: right;
+    color: #FFFFFF;
+    margin: 0 33px 0px 48px;
+
+}
+
+.toFav {
+    width: 324px;
+    height: 48px;
+    margin: 0 33px 33px;
+    background-image: url(./img/buttons/toFav.svg);
+}
+/* Fifth block end */
+
+.brand {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.brand h2 {
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 89px;
+    color: #FFFFFF;
+
+}
+
+.brandImg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
