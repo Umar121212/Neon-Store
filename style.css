@@ -20,6 +20,7 @@ body {
     font-family: "Oswald", sans-serif;
     background: rgba(10, 2, 22, 0.94);
     padding: 0 135px;
+    color: #FFFFFF;
     
 }
 
@@ -127,7 +128,7 @@ nav {
 .advan {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .textAdvan {
@@ -142,44 +143,23 @@ nav {
 }
 
 .content {
+    width: 1567px;
+    height: 468px;
     display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column; 
     align-items: center;
-    justify-content: space-around;
-    font-family: 'Oswald';
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 125%;
-    text-align: center;
-    color: #FEFEFE;
-}
-
-.photoCont {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 75px;
-
-}
-
-.photo {
-    position: relative;
-    width: 395px;
-    height: 337px;
-
-}
-
-.photo .advanImg{
-    position: absolute;
-    width: 327px;
-    height: 256px;
-    left: 50%;
-    bottom: 15px;
-    transform: translate(-50%, 0);
- 
-}
-
-
-.text {
     margin-bottom: 200px;
+}
+
+.card h2 {
+    margin-top: 75px;
 }
 /* Third block end */
 /* Fourth block start */
@@ -193,7 +173,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 100px;
+    margin: 200px 0 100px;
 
 }
 
@@ -382,6 +362,77 @@ nav {
     background-image: url(./img/buttons/toFav.svg);
 }
 /* Fifth block end */
+/* Sixth block start*/
+
+section h2 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 89px;
+    margin-bottom: 100px;
+}
+
+.newsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30;
+    margin-bottom: 200px;
+}
+
+.news {
+    height: 450px;
+    background-image: url(./img/bg1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 256px 100px 100px;
+    grid-template-areas:    "i i"
+                            "h h"
+                            "d b";
+}
+
+.news h6{
+    grid-area: h;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    margin: 0;
+    margin-left: 50px;
+    width: 550px;
+
+}
+
+.news .date {
+    grid-area: d;
+    font-family: 'Jost';
+    font-size: 20px;
+    line-height: 29px;
+    align-self: center;
+    margin-left: 77px;
+
+}
+
+.news .date::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 22px;
+    background-image: url(./img/slash.svg);
+}
+
+.news .newsButton {
+    grid-area: b;
+    background-image: url(./img/buttons/button\ news.png);
+    background-repeat: no-repeat;
+    margin: 25px 0px 1px -35px;
+}
+/* Sixth block end */
+/* Seventh block start */
 
 .brand {
     display: flex;
@@ -406,4 +457,4 @@ nav {
     align-items: center;
     margin-bottom: 200px;
 }
-/* Fifth block end */
+/* Seventh block end */
