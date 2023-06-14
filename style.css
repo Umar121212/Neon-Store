@@ -264,6 +264,45 @@ nav {
 }
 
 /* Fourth block end */
+/* promo block start */
+.promoSection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 330px;
+
+}
+
+.promoh2 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 89px;
+    margin-bottom: 100px;
+
+}
+
+.promoBlocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1650px;
+
+}
+
+.promo2 {
+    width: 573px;
+    height: 450px;
+    margin: 0 10px;
+ 
+}
+
+.promo3 {
+    width: 520px;
+    height: 450px;
+}
+
+/* Promo block end */
 /* Fifth block start */
 .special {
     display: flex;
