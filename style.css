@@ -735,6 +735,7 @@ aside {
     flex-grow: 0;
     flex-shrink: 0;
     margin-right: 30px;
+    padding-right: 56px;
     width: 499px;
     border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
