@@ -928,8 +928,52 @@ aside .resetbtn {
     flex-wrap: wrap;
     width: 1230px;
     height: 3251px;
-    margin: 84px 0 30px 58px;
-    
+    margin: 84px 0 30px 58px; 
 
 }
+
+/* Third page */
+/* Product Start */
+
+.product-first-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+
+}
+
+.product-second-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+
+}
+
+.product-third-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+
+}
+
+.product-informaton-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Product end */
 
